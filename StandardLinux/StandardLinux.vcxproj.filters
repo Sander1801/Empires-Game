@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{16912568-9e35-4ead-a9d8-096c94c13ede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{53a9c858-b38b-4930-8acc-71e9c71362e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Make files">
+      <UniqueIdentifier>{d073a152-fe50-4b56-b310-9bc8cf9744ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{3dca21e1-c5c5-4074-82b9-b27496a6b270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource files\Shaders">
+      <UniqueIdentifier>{1d32564b-be32-42ac-97cc-998e17d410dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource files\Textures">
+      <UniqueIdentifier>{e5a76be7-4fd7-4388-ae87-07d16ff23db8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource files\Models">
+      <UniqueIdentifier>{2751c931-6428-4c43-8127-d51c44459f20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External Libraries">
+      <UniqueIdentifier>{fc1444b9-f824-48d3-b631-8ae06bd3360c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\State Machine">
+      <UniqueIdentifier>{c8a76362-dd4d-46af-947c-3df088735b94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\State Machine\Game">
+      <UniqueIdentifier>{78d77eb6-19c6-4a67-90c7-937cb24fc87a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\State Machine">
+      <UniqueIdentifier>{f40ac761-98a4-491a-b288-ba26a1dd7b44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\State Machine\Game">
+      <UniqueIdentifier>{7dec1c83-fe12-4e22-9de9-3c9b413a8aa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\State Machine\Game\States">
+      <UniqueIdentifier>{30071c5a-d6be-49bb-a385-caa1826b9477}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\State Machine\Game\States">
+      <UniqueIdentifier>{7932ae3d-06f2-4f2e-bdfc-6225ad8d6f90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Graphics">
+      <UniqueIdentifier>{c005139c-e1c2-49fc-b63a-485a3ba2fc22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Graphics">
+      <UniqueIdentifier>{d7729141-5230-4d85-93c2-a68aa1434fcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Debug">
+      <UniqueIdentifier>{718ee174-c8af-46f6-b1e7-9ef281e73548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Model">
+      <UniqueIdentifier>{d4fcdc78-b206-4bc4-a0e2-55ba56f16209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\Model">
+      <UniqueIdentifier>{fc259aec-32cb-4b47-aa30-80185e8e4f11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files\Asset Manager">
+      <UniqueIdentifier>{d9cff10e-94ee-4e3b-97b5-c28678919943}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Source\Game.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Main.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\FileLoader.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\KeyboardInput.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\State Machine\Game\GameStateMachine.cpp">
+      <Filter>Source files\State Machine\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\State Machine\Game\States\GameState.cpp">
+      <Filter>Source files\State Machine\Game\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\State Machine\Game\States\MainMenuState.cpp">
+      <Filter>Source files\State Machine\Game\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\State Machine\Game\States\SplashScreenState.cpp">
+      <Filter>Source files\State Machine\Game\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Graphics\Shader.cpp">
+      <Filter>Source files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Graphics\Graphics.cpp">
+      <Filter>Source files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Model\Mesh.cpp">
+      <Filter>Source files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Model\MeshModel.cpp">
+      <Filter>Source files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Model\Model.cpp">
+      <Filter>Source files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Model\ModelInstance.cpp">
+      <Filter>Source files\Model</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Headers\Game.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\FileLoader.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\KeyboardInput.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\stb_image.h">
+      <Filter>External Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\tiny_obj_loader.h">
+      <Filter>External Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\State Machine\Game\GameStateMachine.h">
+      <Filter>Header files\State Machine\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\State Machine\State.h">
+      <Filter>Header files\State Machine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\State Machine\Game\States\GameState.h">
+      <Filter>Header files\State Machine\Game\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\State Machine\Game\States\MainMenuState.h">
+      <Filter>Header files\State Machine\Game\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\State Machine\Game\States\SplashScreenState.h">
+      <Filter>Header files\State Machine\Game\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\State Machine\Game\GameData.h">
+      <Filter>Header files\State Machine\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Graphics\Shader.h">
+      <Filter>Header files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Debug\ShaderDebug.h">
+      <Filter>Header files\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Graphics\Graphics.h">
+      <Filter>Header files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Debug\TerminalOutput.h">
+      <Filter>Header files\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Config.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Model\Mesh.h">
+      <Filter>Header files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Model\MeshModel.h">
+      <Filter>Header files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Model\Model.h">
+      <Filter>Header files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Model\ModelInstance.h">
+      <Filter>Header files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Asset Manager\Texture.h">
+      <Filter>Header files\Asset Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Graphics\Vertex.h">
+      <Filter>Header files\Graphics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\debug.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="..\release.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\fshad1.fsh">
+      <Filter>Resource files\Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Models\brian_02.mtl">
+      <Filter>Resource files\Models</Filter>
+    </None>
+    <None Include="..\Resources\Models\brian_03.mtl">
+      <Filter>Resource files\Models</Filter>
+    </None>
+    <None Include="..\Resources\Models\brian_01.mtl">
+      <Filter>Resource files\Models</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Resources\Shaders\vshad1.vsh">
+      <Filter>Resource files\Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\Textures\Harvey2.jpg">
+      <Filter>Resource files\Textures</Filter>
+    </Image>
+    <Image Include="..\Resources\Models\brian_01.png">
+      <Filter>Resource files\Models</Filter>
+    </Image>
+    <Image Include="..\Resources\Models\brian_01_em.png">
+      <Filter>Resource files\Models</Filter>
+    </Image>
+    <Image Include="..\Resources\Models\brian_02.png">
+      <Filter>Resource files\Models</Filter>
+    </Image>
+    <Image Include="..\Resources\Models\brian_02_em.png">
+      <Filter>Resource files\Models</Filter>
+    </Image>
+    <Image Include="..\Resources\Models\brian_03.png">
+      <Filter>Resource files\Models</Filter>
+    </Image>
+    <Image Include="..\Resources\Models\brian_03_em.png">
+      <Filter>Resource files\Models</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="..\Resources\Models\brian_01.obj">
+      <Filter>Resource files\Models</Filter>
+    </Object>
+    <Object Include="..\Resources\Models\brian_03.obj">
+      <Filter>Resource files\Models</Filter>
+    </Object>
+    <Object Include="..\Resources\Models\brian_02.obj">
+      <Filter>Resource files\Models</Filter>
+    </Object>
+  </ItemGroup>
+</Project>

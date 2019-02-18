@@ -1,0 +1,53 @@
+D:\BUAS\All Projects\Empires\Main.cpp|636860092608088730|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Source\Game.cpp|636860249067146027|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Source\FileLoader.cpp|636857600803258675|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Source\Graphics\Graphics.cpp|636860012476550927|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Source\Graphics\Shader.cpp|636859454256012848|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Source\KeyboardInput.cpp|636859253839124048|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Source\Model\Mesh.cpp|636860852582772588|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Source\Model\MeshModel.cpp|636860237660086009|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Source\Model\Model.cpp|636860237675336539|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Source\Model\ModelInstance.cpp|636860237539850667|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Source\State Machine\Game\GameStateMachine.cpp|636859293468412631|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Source\State Machine\Game\States\GameState.cpp|636860256067446005|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Source\State Machine\Game\States\MainMenuState.cpp|636859308680854264|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Source\State Machine\Game\States\SplashScreenState.cpp|636860091231145675|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Headers\Asset Manager\Texture.h|636860335117006187|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Headers\Config.h|636860329457033843|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Headers\Debug\ShaderDebug.h|636859466891400300|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Headers\Debug\TerminalOutput.h|636859466778112721|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Headers\Game.h|636860248859886855|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Headers\FileLoader.h|636857597990081093|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Headers\Graphics\Graphics.h|636860851969367262|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Headers\Graphics\Shader.h|636860331086900032|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Headers\Graphics\Vertex.h|636860440337962704|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Headers\KeyboardInput.h|636859254568022559|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Headers\Model\Mesh.h|636860852599743534|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Headers\Model\MeshModel.h|636860237509228753|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Headers\Model\Model.h|636860237539850667|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Headers\Model\ModelInstance.h|636860237539850667|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Headers\State Machine\Game\GameData.h|636860248944378280|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Headers\State Machine\Game\GameStateMachine.h|636859293369233668|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Headers\State Machine\Game\States\GameState.h|636860089504798927|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Headers\State Machine\Game\States\MainMenuState.h|636859308680854264|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Headers\State Machine\Game\States\SplashScreenState.h|636860088659765130|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Headers\State Machine\State.h|636859251908413292|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Headers\stb_image.h|636130439780000000|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Headers\tiny_obj_loader.h|636233905860000000|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\debug.mak|636854465720000000|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\release.mak|636609515720000000|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Resources\Models\brian_01.mtl|636227012960000000|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Resources\Models\brian_02.mtl|636227012960000000|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Resources\Models\brian_03.mtl|636231352860000000|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Resources\Shaders\fshad1.fsh|636624663640000000|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Resources\Models\brian_01.obj|636227012960000000|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Resources\Models\brian_02.obj|636227012960000000|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Resources\Models\brian_03.obj|636227012960000000|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Resources\Shaders\vshad1.vsh|636624664680000000|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Resources\Models\brian_01.png|636227012960000000|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Resources\Models\brian_01_em.png|636227012960000000|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Resources\Models\brian_02.png|636227012960000000|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Resources\Models\brian_02_em.png|636227012960000000|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Resources\Models\brian_03.png|636227012960000000|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Resources\Models\brian_03_em.png|636227012960000000|~/projects/StandardLinux|
+D:\BUAS\All Projects\Empires\Resources\Textures\Harvey2.jpg|636130433480000000|~/projects/StandardLinux|

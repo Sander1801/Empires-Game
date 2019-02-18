@@ -1,0 +1,87 @@
+D:\BUAS\All Projects\Empires\Main.cpp|/home/pi/projects/StandardLinux/Main.cpp
+D:\BUAS\All Projects\Empires|/home/pi/projects/StandardLinux
+@D:\BUAS\All Projects\Empires|@/home/pi/projects/StandardLinux
+D:\BUAS\All Projects\Empires\Source\Game.cpp|/home/pi/projects/StandardLinux/Source/Game.cpp
+D:\BUAS\All Projects\Empires\Source|/home/pi/projects/StandardLinux/Source
+@D:\BUAS\All Projects\Empires\Source|@/home/pi/projects/StandardLinux/Source
+D:\BUAS\All Projects\Empires\Source\FileLoader.cpp|/home/pi/projects/StandardLinux/Source/FileLoader.cpp
+D:\BUAS\All Projects\Empires\Source\Graphics\Graphics.cpp|/home/pi/projects/StandardLinux/Source/Graphics/Graphics.cpp
+D:\BUAS\All Projects\Empires\Source\Graphics|/home/pi/projects/StandardLinux/Source/Graphics
+@D:\BUAS\All Projects\Empires\Source\Graphics|@/home/pi/projects/StandardLinux/Source/Graphics
+D:\BUAS\All Projects\Empires\Source\Graphics\Shader.cpp|/home/pi/projects/StandardLinux/Source/Graphics/Shader.cpp
+D:\BUAS\All Projects\Empires\Source\KeyboardInput.cpp|/home/pi/projects/StandardLinux/Source/KeyboardInput.cpp
+D:\BUAS\All Projects\Empires\Source\Model\Mesh.cpp|/home/pi/projects/StandardLinux/Source/Model/Mesh.cpp
+D:\BUAS\All Projects\Empires\Source\Model|/home/pi/projects/StandardLinux/Source/Model
+@D:\BUAS\All Projects\Empires\Source\Model|@/home/pi/projects/StandardLinux/Source/Model
+D:\BUAS\All Projects\Empires\Source\Model\MeshModel.cpp|/home/pi/projects/StandardLinux/Source/Model/MeshModel.cpp
+D:\BUAS\All Projects\Empires\Source\Model\Model.cpp|/home/pi/projects/StandardLinux/Source/Model/Model.cpp
+D:\BUAS\All Projects\Empires\Source\Model\ModelInstance.cpp|/home/pi/projects/StandardLinux/Source/Model/ModelInstance.cpp
+D:\BUAS\All Projects\Empires\Source\State Machine\Game\GameStateMachine.cpp|/home/pi/projects/StandardLinux/Source/State Machine/Game/GameStateMachine.cpp
+D:\BUAS\All Projects\Empires\Source\State Machine\Game|/home/pi/projects/StandardLinux/Source/State Machine/Game
+@D:\BUAS\All Projects\Empires\Source\State Machine\Game|@/home/pi/projects/StandardLinux/Source/State Machine/Game
+D:\BUAS\All Projects\Empires\Source\State Machine\Game\States\GameState.cpp|/home/pi/projects/StandardLinux/Source/State Machine/Game/States/GameState.cpp
+D:\BUAS\All Projects\Empires\Source\State Machine\Game\States|/home/pi/projects/StandardLinux/Source/State Machine/Game/States
+@D:\BUAS\All Projects\Empires\Source\State Machine\Game\States|@/home/pi/projects/StandardLinux/Source/State Machine/Game/States
+D:\BUAS\All Projects\Empires\Source\State Machine\Game\States\MainMenuState.cpp|/home/pi/projects/StandardLinux/Source/State Machine/Game/States/MainMenuState.cpp
+D:\BUAS\All Projects\Empires\Source\State Machine\Game\States\SplashScreenState.cpp|/home/pi/projects/StandardLinux/Source/State Machine/Game/States/SplashScreenState.cpp
+D:\BUAS\All Projects\Empires\Headers\Asset Manager\Texture.h|/home/pi/projects/StandardLinux/Headers/Asset Manager/Texture.h
+D:\BUAS\All Projects\Empires\Headers\Asset Manager|/home/pi/projects/StandardLinux/Headers/Asset Manager
+@D:\BUAS\All Projects\Empires\Headers\Asset Manager|@/home/pi/projects/StandardLinux/Headers/Asset Manager
+D:\BUAS\All Projects\Empires\Headers\Config.h|/home/pi/projects/StandardLinux/Headers/Config.h
+D:\BUAS\All Projects\Empires\Headers|/home/pi/projects/StandardLinux/Headers
+@D:\BUAS\All Projects\Empires\Headers|@/home/pi/projects/StandardLinux/Headers
+D:\BUAS\All Projects\Empires\Headers\Debug\ShaderDebug.h|/home/pi/projects/StandardLinux/Headers/Debug/ShaderDebug.h
+D:\BUAS\All Projects\Empires\Headers\Debug|/home/pi/projects/StandardLinux/Headers/Debug
+@D:\BUAS\All Projects\Empires\Headers\Debug|@/home/pi/projects/StandardLinux/Headers/Debug
+D:\BUAS\All Projects\Empires\Headers\Debug\TerminalOutput.h|/home/pi/projects/StandardLinux/Headers/Debug/TerminalOutput.h
+D:\BUAS\All Projects\Empires\Headers\Game.h|/home/pi/projects/StandardLinux/Headers/Game.h
+D:\BUAS\All Projects\Empires\Headers\FileLoader.h|/home/pi/projects/StandardLinux/Headers/FileLoader.h
+D:\BUAS\All Projects\Empires\Headers\Graphics\Graphics.h|/home/pi/projects/StandardLinux/Headers/Graphics/Graphics.h
+D:\BUAS\All Projects\Empires\Headers\Graphics|/home/pi/projects/StandardLinux/Headers/Graphics
+@D:\BUAS\All Projects\Empires\Headers\Graphics|@/home/pi/projects/StandardLinux/Headers/Graphics
+D:\BUAS\All Projects\Empires\Headers\Graphics\Shader.h|/home/pi/projects/StandardLinux/Headers/Graphics/Shader.h
+D:\BUAS\All Projects\Empires\Headers\Graphics\Vertex.h|/home/pi/projects/StandardLinux/Headers/Graphics/Vertex.h
+D:\BUAS\All Projects\Empires\Headers\KeyboardInput.h|/home/pi/projects/StandardLinux/Headers/KeyboardInput.h
+D:\BUAS\All Projects\Empires\Headers\Model\Mesh.h|/home/pi/projects/StandardLinux/Headers/Model/Mesh.h
+D:\BUAS\All Projects\Empires\Headers\Model|/home/pi/projects/StandardLinux/Headers/Model
+@D:\BUAS\All Projects\Empires\Headers\Model|@/home/pi/projects/StandardLinux/Headers/Model
+D:\BUAS\All Projects\Empires\Headers\Model\MeshModel.h|/home/pi/projects/StandardLinux/Headers/Model/MeshModel.h
+D:\BUAS\All Projects\Empires\Headers\Model\Model.h|/home/pi/projects/StandardLinux/Headers/Model/Model.h
+D:\BUAS\All Projects\Empires\Headers\Model\ModelInstance.h|/home/pi/projects/StandardLinux/Headers/Model/ModelInstance.h
+D:\BUAS\All Projects\Empires\Headers\State Machine\Game\GameData.h|/home/pi/projects/StandardLinux/Headers/State Machine/Game/GameData.h
+D:\BUAS\All Projects\Empires\Headers\State Machine\Game|/home/pi/projects/StandardLinux/Headers/State Machine/Game
+@D:\BUAS\All Projects\Empires\Headers\State Machine\Game|@/home/pi/projects/StandardLinux/Headers/State Machine/Game
+D:\BUAS\All Projects\Empires\Headers\State Machine\Game\GameStateMachine.h|/home/pi/projects/StandardLinux/Headers/State Machine/Game/GameStateMachine.h
+D:\BUAS\All Projects\Empires\Headers\State Machine\Game\States\GameState.h|/home/pi/projects/StandardLinux/Headers/State Machine/Game/States/GameState.h
+D:\BUAS\All Projects\Empires\Headers\State Machine\Game\States|/home/pi/projects/StandardLinux/Headers/State Machine/Game/States
+@D:\BUAS\All Projects\Empires\Headers\State Machine\Game\States|@/home/pi/projects/StandardLinux/Headers/State Machine/Game/States
+D:\BUAS\All Projects\Empires\Headers\State Machine\Game\States\MainMenuState.h|/home/pi/projects/StandardLinux/Headers/State Machine/Game/States/MainMenuState.h
+D:\BUAS\All Projects\Empires\Headers\State Machine\Game\States\SplashScreenState.h|/home/pi/projects/StandardLinux/Headers/State Machine/Game/States/SplashScreenState.h
+D:\BUAS\All Projects\Empires\Headers\State Machine\State.h|/home/pi/projects/StandardLinux/Headers/State Machine/State.h
+D:\BUAS\All Projects\Empires\Headers\State Machine|/home/pi/projects/StandardLinux/Headers/State Machine
+@D:\BUAS\All Projects\Empires\Headers\State Machine|@/home/pi/projects/StandardLinux/Headers/State Machine
+D:\BUAS\All Projects\Empires\Headers\stb_image.h|/home/pi/projects/StandardLinux/Headers/stb_image.h
+D:\BUAS\All Projects\Empires\Headers\tiny_obj_loader.h|/home/pi/projects/StandardLinux/Headers/tiny_obj_loader.h
+D:\BUAS\All Projects\Empires\debug.mak|/home/pi/projects/StandardLinux/debug.mak
+D:\BUAS\All Projects\Empires\release.mak|/home/pi/projects/StandardLinux/release.mak
+D:\BUAS\All Projects\Empires\Resources\Models\brian_01.mtl|/home/pi/projects/StandardLinux/Resources/Models/brian_01.mtl
+D:\BUAS\All Projects\Empires\Resources\Models|/home/pi/projects/StandardLinux/Resources/Models
+@D:\BUAS\All Projects\Empires\Resources\Models|@/home/pi/projects/StandardLinux/Resources/Models
+D:\BUAS\All Projects\Empires\Resources\Models\brian_02.mtl|/home/pi/projects/StandardLinux/Resources/Models/brian_02.mtl
+D:\BUAS\All Projects\Empires\Resources\Models\brian_03.mtl|/home/pi/projects/StandardLinux/Resources/Models/brian_03.mtl
+D:\BUAS\All Projects\Empires\Resources\Shaders\fshad1.fsh|/home/pi/projects/StandardLinux/Resources/Shaders/fshad1.fsh
+D:\BUAS\All Projects\Empires\Resources\Shaders|/home/pi/projects/StandardLinux/Resources/Shaders
+@D:\BUAS\All Projects\Empires\Resources\Shaders|@/home/pi/projects/StandardLinux/Resources/Shaders
+D:\BUAS\All Projects\Empires\Resources\Models\brian_01.obj|/home/pi/projects/StandardLinux/Resources/Models/brian_01.obj
+D:\BUAS\All Projects\Empires\Resources\Models\brian_02.obj|/home/pi/projects/StandardLinux/Resources/Models/brian_02.obj
+D:\BUAS\All Projects\Empires\Resources\Models\brian_03.obj|/home/pi/projects/StandardLinux/Resources/Models/brian_03.obj
+D:\BUAS\All Projects\Empires\Resources\Shaders\vshad1.vsh|/home/pi/projects/StandardLinux/Resources/Shaders/vshad1.vsh
+D:\BUAS\All Projects\Empires\Resources\Models\brian_01.png|/home/pi/projects/StandardLinux/Resources/Models/brian_01.png
+D:\BUAS\All Projects\Empires\Resources\Models\brian_01_em.png|/home/pi/projects/StandardLinux/Resources/Models/brian_01_em.png
+D:\BUAS\All Projects\Empires\Resources\Models\brian_02.png|/home/pi/projects/StandardLinux/Resources/Models/brian_02.png
+D:\BUAS\All Projects\Empires\Resources\Models\brian_02_em.png|/home/pi/projects/StandardLinux/Resources/Models/brian_02_em.png
+D:\BUAS\All Projects\Empires\Resources\Models\brian_03.png|/home/pi/projects/StandardLinux/Resources/Models/brian_03.png
+D:\BUAS\All Projects\Empires\Resources\Models\brian_03_em.png|/home/pi/projects/StandardLinux/Resources/Models/brian_03_em.png
+D:\BUAS\All Projects\Empires\Resources\Textures\Harvey2.jpg|/home/pi/projects/StandardLinux/Resources/Textures/Harvey2.jpg
+D:\BUAS\All Projects\Empires\Resources\Textures|/home/pi/projects/StandardLinux/Resources/Textures
+@D:\BUAS\All Projects\Empires\Resources\Textures|@/home/pi/projects/StandardLinux/Resources/Textures

@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{fb18a5f0-ed88-4a8e-a680-5404d9b1bc00}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{d8b84598-24c1-48d6-8346-7a1b9abf88f7}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Make files">
+      <UniqueIdentifier>{17f4fdb7-9e96-413c-b078-fa4bdd9050b0}</UniqueIdentifier>
+      <Extensions>*.mak</Extensions>
+    </Filter>
+    <Filter Include="Resource files\Shaders">
+      <UniqueIdentifier>{db19f425-b925-4d9a-b5ed-8883e364b12d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource files\Textures">
+      <UniqueIdentifier>{acf69c33-49d0-4a72-a19e-af15d73c5050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{a693e39a-9857-42d2-9d01-fad0dc03de16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource files\Models">
+      <UniqueIdentifier>{5e003ac2-13eb-4f2a-89f1-d0b3fdd4b6bb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HelloCubes.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ObjectModel.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CubeModel.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MyFiles.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ShaderManager.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ShipModel.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TinyObjectLoader.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+    <None Include="debug.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="release.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="Resources\Shaders\fshad1.fsh">
+      <Filter>Resource files\Shaders</Filter>
+    </None>
+    <None Include="Resources\Models\brian_01.mtl">
+      <Filter>Resource files\Models</Filter>
+    </None>
+    <None Include="Resources\Models\brian_02.mtl">
+      <Filter>Resource files\Models</Filter>
+    </None>
+    <None Include="Resources\Models\brian_03.mtl">
+      <Filter>Resource files\Models</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Resources\Shaders\vshad1.vsh">
+      <Filter>Resource files\Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Textures\Harvey2">
+      <Filter>Resource files\Textures</Filter>
+    </Image>
+    <Image Include="Resources\Models\brian_01.png">
+      <Filter>Resource files\Models</Filter>
+    </Image>
+    <Image Include="Resources\Models\brian_01_em.png">
+      <Filter>Resource files\Models</Filter>
+    </Image>
+    <Image Include="Resources\Models\brian_02.png">
+      <Filter>Resource files\Models</Filter>
+    </Image>
+    <Image Include="Resources\Models\brian_02_em.png">
+      <Filter>Resource files\Models</Filter>
+    </Image>
+    <Image Include="Resources\Models\brian_03.png">
+      <Filter>Resource files\Models</Filter>
+    </Image>
+    <Image Include="Resources\Models\brian_03_em.png">
+      <Filter>Resource files\Models</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Headers\Camera.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\CubeModel.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Game.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Graphics.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MyFiles.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ObjectModel.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ShaderManager.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\ShipModel.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\stb_image.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\tiny_obj_loader.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="Resources\Models\brian_01.obj">
+      <Filter>Resource files\Models</Filter>
+    </Object>
+    <Object Include="Resources\Models\brian_02.obj">
+      <Filter>Resource files\Models</Filter>
+    </Object>
+    <Object Include="Resources\Models\brian_03.obj">
+      <Filter>Resource files\Models</Filter>
+    </Object>
+  </ItemGroup>
+</Project>
