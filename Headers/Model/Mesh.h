@@ -1,18 +1,18 @@
 #ifndef __MESH_H
 #define __MESH_H
 
+#include "../Headers/Asset Manager/Texture.h"
 // Standard C++
 #include <vector>
 
 // Forward Declaration
 class Shader;
-struct Texture;
 struct Vertex;
 
 class Mesh {
 public:
 	/// Functions
-	Mesh(std::vector<unsigned int> a_vIndices, std::vector<Texture> a_vTextures, std::vector<Vertex> a_vVertices);
+	Mesh(std::vector<unsigned short>& a_vIndices, std::vector<Vertex>& a_vVertices, std::vector<Texture> a_vTextures = std::vector<Texture>());
 	~Mesh();
 
 	/* 
@@ -23,7 +23,7 @@ public:
 	void OnDraw(Shader a_Shader);
 
 	/// Variables
-	std::vector<unsigned int> m_vIndices;
+	std::vector<unsigned short> m_vIndices;
 	std::vector<Texture> m_vTextures;
 	std::vector<Vertex> m_vVertices;
 

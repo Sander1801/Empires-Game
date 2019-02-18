@@ -1,9 +1,7 @@
 #pragma once
 
-#include "../Config.h"
-
 // Output log
-#ifdef Debug
+#ifdef _DEBUG
 #define PRINTINFO(stuff) std::cout << (stuff);
 #else
 #define PRINTINFO(stuff)

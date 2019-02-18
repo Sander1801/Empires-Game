@@ -9,9 +9,9 @@
 
 struct Vertex 
 {
-	glm::vec2 v2TexCoords;
 	glm::vec3 v3Position;
 	glm::vec3 v3Normal;
+	glm::vec2 v2TexCoords;
 	glm::vec3 v3Tangent;
 	glm::vec3 v3Bitangent;
 };

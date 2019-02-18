@@ -83,46 +83,6 @@
     <TargetName>Test</TargetName>
   </PropertyGroup>
   <ItemGroup>
-    <ClCompile Include="..\Main.cpp" />
-    <ClCompile Include="..\Source\Game.cpp" />
-    <ClCompile Include="..\Source\FileLoader.cpp" />
-    <ClCompile Include="..\Source\Graphics\Graphics.cpp" />
-    <ClCompile Include="..\Source\Graphics\Shader.cpp" />
-    <ClCompile Include="..\Source\KeyboardInput.cpp" />
-    <ClCompile Include="..\Source\Model\Mesh.cpp" />
-    <ClCompile Include="..\Source\Model\MeshModel.cpp" />
-    <ClCompile Include="..\Source\Model\Model.cpp" />
-    <ClCompile Include="..\Source\Model\ModelInstance.cpp" />
-    <ClCompile Include="..\Source\State Machine\Game\GameStateMachine.cpp" />
-    <ClCompile Include="..\Source\State Machine\Game\States\GameState.cpp" />
-    <ClCompile Include="..\Source\State Machine\Game\States\MainMenuState.cpp" />
-    <ClCompile Include="..\Source\State Machine\Game\States\SplashScreenState.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\Headers\Asset Manager\Texture.h" />
-    <ClInclude Include="..\Headers\Config.h" />
-    <ClInclude Include="..\Headers\Debug\ShaderDebug.h" />
-    <ClInclude Include="..\Headers\Debug\TerminalOutput.h" />
-    <ClInclude Include="..\Headers\Game.h" />
-    <ClInclude Include="..\Headers\FileLoader.h" />
-    <ClInclude Include="..\Headers\Graphics\Graphics.h" />
-    <ClInclude Include="..\Headers\Graphics\Shader.h" />
-    <ClInclude Include="..\Headers\Graphics\Vertex.h" />
-    <ClInclude Include="..\Headers\KeyboardInput.h" />
-    <ClInclude Include="..\Headers\Model\Mesh.h" />
-    <ClInclude Include="..\Headers\Model\MeshModel.h" />
-    <ClInclude Include="..\Headers\Model\Model.h" />
-    <ClInclude Include="..\Headers\Model\ModelInstance.h" />
-    <ClInclude Include="..\Headers\State Machine\Game\GameData.h" />
-    <ClInclude Include="..\Headers\State Machine\Game\GameStateMachine.h" />
-    <ClInclude Include="..\Headers\State Machine\Game\States\GameState.h" />
-    <ClInclude Include="..\Headers\State Machine\Game\States\MainMenuState.h" />
-    <ClInclude Include="..\Headers\State Machine\Game\States\SplashScreenState.h" />
-    <ClInclude Include="..\Headers\State Machine\State.h" />
-    <ClInclude Include="..\Headers\stb_image.h" />
-    <ClInclude Include="..\Headers\tiny_obj_loader.h" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="..\debug.mak" />
     <None Include="..\release.mak" />
     <None Include="..\Resources\Models\brian_01.mtl">
@@ -130,13 +90,8 @@
     </None>
     <None Include="..\Resources\Models\brian_02.mtl" />
     <None Include="..\Resources\Models\brian_03.mtl" />
-    <None Include="..\Resources\Shaders\fshad1.fsh" />
-  </ItemGroup>
-  <ItemGroup>
-    <FxCompile Include="..\Resources\Shaders\vshad1.vsh">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">true</ExcludedFromBuild>
-    </FxCompile>
+    <None Include="..\Resources\Shaders\Triangle.fs" />
+    <None Include="..\Resources\Shaders\Triangle.vs" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\Resources\Models\brian_01.png">
@@ -162,10 +117,49 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">true</ExcludedFromBuild>
     </Object>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Headers\Asset Manager\Texture.h" />
+    <ClInclude Include="..\Headers\Debug\ShaderDebug.h" />
+    <ClInclude Include="..\Headers\Debug\TerminalOutput.h" />
+    <ClInclude Include="..\Headers\FileLoader.h" />
+    <ClInclude Include="..\Headers\Game.h" />
+    <ClInclude Include="..\Headers\Graphics\Graphics.h" />
+    <ClInclude Include="..\Headers\Graphics\Shader.h" />
+    <ClInclude Include="..\Headers\Graphics\Vertex.h" />
+    <ClInclude Include="..\Headers\KeyboardInput.h" />
+    <ClInclude Include="..\Headers\Model\Mesh.h" />
+    <ClInclude Include="..\Headers\Model\MeshModel.h" />
+    <ClInclude Include="..\Headers\Model\Model.h" />
+    <ClInclude Include="..\Headers\Model\ModelInstance.h" />
+    <ClInclude Include="..\Headers\State Machine\Game\GameData.h" />
+    <ClInclude Include="..\Headers\State Machine\Game\GameStateMachine.h" />
+    <ClInclude Include="..\Headers\State Machine\Game\States\GameState.h" />
+    <ClInclude Include="..\Headers\State Machine\Game\States\MainMenuState.h" />
+    <ClInclude Include="..\Headers\State Machine\Game\States\SplashScreenState.h" />
+    <ClInclude Include="..\Headers\State Machine\State.h" />
+    <ClInclude Include="..\Headers\stb_image.h" />
+    <ClInclude Include="..\Headers\tiny_obj_loader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Main.cpp" />
+    <ClCompile Include="..\Source\FileLoader.cpp" />
+    <ClCompile Include="..\Source\Game.cpp" />
+    <ClCompile Include="..\Source\Graphics\Graphics.cpp" />
+    <ClCompile Include="..\Source\Graphics\Shader.cpp" />
+    <ClCompile Include="..\Source\KeyboardInput.cpp" />
+    <ClCompile Include="..\Source\Model\Mesh.cpp" />
+    <ClCompile Include="..\Source\Model\MeshModel.cpp" />
+    <ClCompile Include="..\Source\Model\Model.cpp" />
+    <ClCompile Include="..\Source\Model\ModelInstance.cpp" />
+    <ClCompile Include="..\Source\State Machine\Game\GameStateMachine.cpp" />
+    <ClCompile Include="..\Source\State Machine\Game\States\GameState.cpp" />
+    <ClCompile Include="..\Source\State Machine\Game\States\MainMenuState.cpp" />
+    <ClCompile Include="..\Source\State Machine\Game\States\SplashScreenState.cpp" />
+  </ItemGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
     <ClCompile>
       <WarningLevel>TurnOffAllWarnings</WarningLevel>
-      <PreprocessorDefinitions>RASPBERRY;VSBUILDl%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>RASPBERRY;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ShowIncludes>true</ShowIncludes>
       <CppLanguageStandard>c++14</CppLanguageStandard>
       <RuntimeTypeInfo>false</RuntimeTypeInfo>

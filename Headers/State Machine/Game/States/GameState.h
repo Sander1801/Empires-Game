@@ -3,6 +3,9 @@
 
 #include "../Headers/State Machine/State.h"
 #include "../Headers/State Machine/Game/GameData.h"
+#include "../Headers/Graphics/Shader.h"
+
+class Mesh;
 
 class GameState : public State
 {
@@ -16,6 +19,9 @@ public:
 
 private:
 	GameDataRef m_GameStateData;
+
+	Mesh* mesh;
+	Shader shader;
 };
 
 #endif
